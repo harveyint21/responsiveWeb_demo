@@ -283,7 +283,7 @@ header .main ul li a:hover,header .main ul li a:active{
 }
 /* 滚动公告 */
 .ad{
-    display:none;
+    /*display:none;*/
 }
 /* 功能说明 */
 .feature {
@@ -541,6 +541,10 @@ header .main ul li a:hover,header .main ul li a:active{
 @media only screen and  (max-width: 30em) {
     .product {
         width: 96%;
+    }
+    .product em:first-child:before{
+        content:"";
+        display:block;
     }
     .product .product-content{
         font-size:1.2rem;
